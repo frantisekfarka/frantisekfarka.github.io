@@ -37,6 +37,14 @@ html {
 	bottom: 15%;
 }
 
+.intro p {
+	padding: 15px;
+}
+
+.info .fa {
+	font-size: 3em;
+}
+
 .trsp-60 {
 	background-color: rgba(245, 245, 245, 0.6);
 }
@@ -49,7 +57,7 @@ html {
 	background-color: rgba(245, 245, 245, 0.90);
 }
 
-.intro-body .col {
+.intro-body .info {
 	border-radius: 10px;
 	background-color: rgba(245, 245, 245, 0.90);
 }
