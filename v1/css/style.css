@@ -156,3 +156,41 @@ footer .row .fa-map-marker{
 	min-height: 100%;
 }
 
+nav {
+	color: red;
+	background-color: transparent;
+}
+
+nav.affix-top {
+	background-color: transparent;
+	border: 0px;
+	position: relative;
+	margin-top: 60px;
+}
+
+nav.affix-top .container {
+	padding-top: 40px;
+}
+
+nav li a {
+	font-variant: small-caps;
+	font-weight: bold;
+	padding: 5px;
+}
+
+nav.affix-top a.navbar-brand {
+	display: none;
+}
+
+nav.affix-top li a {
+	color: white !important;
+	padding: 15px;
+}
+
+nav.affix-top li.active a {
+	background-color: transparent !important;
+}
+
+nav.affix-top li span {
+	background: rgba(158,158,158,0.5);
+}
