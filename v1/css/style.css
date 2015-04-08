@@ -33,13 +33,22 @@ body {
 	height: 100%;
 }
 
-#myCarousel .carousel-inner .item-2 {
+#myCarousel .carousel-inner .item-1 {
 	background-image: url('../assets/bck1.jpg');
 }
 
-#myCarousel .carousel-inner .item-1 {
-	background-image: url('../../img/car1.png');
+#myCarousel .carousel-inner .item-2 {
+	background-image: url('../assets/bck2.jpg');
 }
+
+#myCarousel .carousel-inner .item-3 {
+	background-image: url('../assets/bck3.jpg');
+}
+
+#myCarousel .carousel-inner .item-4 {
+	background-image: url('../assets/bck4.jpg');
+}
+
 
 
 #myCarousel .in-carousel {
