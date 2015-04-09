@@ -5,11 +5,16 @@ $("a[href^='#']").on('click', function(e) {
 
    // store hash
    var hash = this.hash;
-   //console.log(hash);
+   console.log(hash);
+
+   var topOfH = 0;
+   if(hash != '') {
+     topOfH = $(hash).offset().top
+   }
 
    // animate
    $('html, body').animate({
-       scrollTop: $(hash).offset().top
+       scrollTop: topOfH
      }, 600, function(){
 
        // when done, add hash to url
