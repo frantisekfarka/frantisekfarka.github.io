@@ -13,6 +13,15 @@ a.nohl {
   color: #5a5a5a;
 }
 
+h2 {
+  padding-top: 50px;
+}
+
+.spacer {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
