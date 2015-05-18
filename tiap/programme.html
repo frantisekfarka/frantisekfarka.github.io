@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title> Workshop on Type Inference and Automated Proving</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">TIAP</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+	  <ul class="navbar-nav nav pull-right">
+		  <li class=""><a href="#invited"><span>Invited speakers</span></a></li>
+		  <!--li class=""><a
+		      href="#registration"><span>Registration</span></a></li-->
+		  <li class=""><a href="#programme"><span>Programme</span></a></li>
+		  <li class=""><a href="#participants"><span>Participants</span></a></li>
+		  <li class=""><a href="#travelacc"><span>Travel & Accommodation</span></a></li>
+		  <li class=""><a href="#contact"><span>Contact</span></a></li>
+	  </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+     <div class="container-fluid">
+	<div class="row">
+		<div class="col col-md-2">
+				<img src="assets/uod-logo.png"
+				class="" width="80px" />
+				<img src="assets/sicsa-logo.png"
+				class="" height="80px" />
+				<img src="assets/epsrc-logo.png"
+				class="" height="80px" />
+		</div>
+      </div>
+    </div>
+      
+
+    <br />
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="">
+      <div class="container">
+	<h1>Workshop on Type Inference and Automated Proving</h1>
+	<p>School of Computing, University of Dundee, Tuesday the 12<sup>th</sup> of
+	May 2015, 12 PM - 6 PM</p>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <!-- Programme -->
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-9">
+		<h2><a id="programme"></a>Programme</h2>
+	</div>
+      </div>	
+      <div class="row spacer">
+        <div class="col col-md-7 col-md-offset-3">
+	  <h4>lunch</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>12:00 - 12:45</h5>
+	</div>
+      </div>	
+ 
+      <div class="row">
+        <div class="col col-md-12">
+		<h3>Session 1: Invited Speaker</h3>
+	</div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Tom Schrijvers | Katholieke Universiteit Leuven</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>GADTs Meet their Match: Pattern-matching Warnings
+		  that Account for GADTs, Guards, and Laziness</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>12:45 - 13:45</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-7 col-md-offset-3">
+	  <!--p>For ML and Haskell, accurate warnings when a function definition
+	  has redundant or missing patterns are mission critical. But today's
+	  compilers generate bogus warnings when the programmer uses guards
+	  (even simple ones), GADTs, pattern guards, or view patterns. We give
+	  the first algorithm that handles all these cases in a single, uniform
+	  framework, together with an implementation in GHC, and evidence of its
+	  utility in practice.</p-->
+	  
+	  <!--p>Joint work with Georgios Karachalias, Dimitrios Vytiniotis,
+	  and Simon Peyton Jones.
+	  </p-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Conor McBride | University of Strathclyde</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>Type Inference needs Revolution</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>13:45 - 14:15</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p>The Hindley-Milner let-rule operates on the basis that if we keep
+	  on restricting our ambitions for the expressiveness of the types we
+	  want for our programs, we reach the point where types are stupid
+	  enough that even computers can guess them. What happens if we reverse
+	  the information flow?  Ambition for type expressivity can become
+	  rewarding if it increases the computer's ability to guess the
+	  *program*. This possibility has not escaped notice, thus far, but
+	  neither has it taken hold as the key to a language design.
+	  Fortunately, Milner's idea to ensure necessary coincidences by
+	  unification works perfectly well when the information flow is turned
+	  around. So let us (and our languages) be mindful about what we already
+	  know and open to new possibilities. I'll try to put my finger on some
+	  blind spots and some faulty learning, the better to blunder more
+	  effectively.</p-->
+        </div>
+      </div>
+
+      <div class="row spacer">
+        <div class="col col-md-7 col-md-offset-3">
+	  <h4>coffee break</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>14:15 - 14:30</h5>
+	</div>
+      </div>	
+
+      <div class="row">
+        <div class="col col-md-12">
+		<h3>Session 2: The Structural and the Substractural</h3>
+	</div>
+      </div>
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>J. Garrett Morris | University of Edinburgh</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>Substructural Types with Class</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>14:30 - 15:00</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p> Substructural type systems are useful for reasoning about state in
+	  functional programming languages; for example, they can be used to
+	  assure the safety of code with type-changing updates, or to guarantee
+	  that communication protocols are followed (i.e., session typing).
+	  Unfortunately, existing approaches to substructural typing require
+	  significant duplication of code, particularly in the definition and
+	  use of higher-order functions.  In this talk, I will describe a new
+	  approach to integrating substructural and Hindley-Milner typing in
+	  functional programming languages.  My approach relies on using
+	  predicates to track the use of contraction and weakening, and avoids
+	  the duplication that appears in existing code.  I will show that this
+	  approach enjoys principal typing and type inference, by extending
+	  standard approaches for Haskell-like languages.</p-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Bob Atkey | University of Strathclyde</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>An Algebraic Approach to Typechecking and Elaboration</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>15:00 - 15:30</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p>Since the work of Fiore, Plotkin and Turi, we have known that the
+	  syntax of typed and untyped lambda-calculi can be thought of in terms
+	  of algebraic theories. The typechecking process that takes us from
+	  untyped  to typed terms is defined by structural recursion on the
+	  initial algebra of untyped terms. In this talk, I'll explore the idea
+	  that the typechecking process *itself* can be expressed as an
+	  algebraic theory. This leads naturally to the idea of the programs
+	  that the programmer enters being "active" in the sense that they can
+	  participate in the type checking process, blending features of
+	  LCF-style tactic scripts with more normal terms.</p-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Katya Komendantskaya | University of Dundee</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>Structural Resolution and Universal Productivity Checker</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>15:30 - 16:00</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p>In constructive proof theory, proving that a proposition A has a
+	  proof in the context Gamma amounts to showing that type A is inhabited
+	  by a proof p, namely it amounts to constructing p. This principle
+	  underlies most modern interactive theorem provers.</p-->
+	  
+	  <!--p>First-order automated theorem proving, in contrast, has much weaker,
+	  if any, support for capturing structural (constructive) properties of
+	  proofs. To prove that a proposition A follows from a logic program
+	  Gamma, the algorithm of SLD-resolution should derive a contradiction
+	  from assumption that A is false. The proof structure remains
+	  irrelevant in this decision procedure, as long as resolution algorithm
+	  succeeds.</p-->
+	  
+	  <!--p>The resolution approach has advantages, the main of which is efficient
+	  proof automation, which makes it suitable for automation of type
+	  inference. However, neglecting proof structure comes at a price. It is
+	  extremely hard to analyse structural properties of such derivations,
+	  whether they finitely succeed or run forever. For successful
+	  derivations, we still miss a construction of exact proof evidence, in
+	  potentially non-terminating derivations, we lack tools to analyse
+	  productivity.</p-->
+	  
+	  <!--p>Structural Resolution is an analogue of constructive proof theory
+	  approach realised in the untyped first-order setting of logic
+	  programming. In particular, it allows to formulate, for the first
+	  time, the notions of  proof evidence and of  universal productivity
+	  for first-order resolution.</p-->
+	  
+	  <!--p>In this talk, I will give an outline of Structural resolution and will
+	  hypothesize on  its possible use in Type Inference.</p-->
+        </div>
+      </div>
+
+      <div class="row spacer">
+        <div class="col col-md-7 col-md-offset-3">
+	  <h4>coffee break</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>16:00 - 16:30</h5>
+	</div>
+      </div>
+
+
+      <div class="row">
+        <div class="col col-md-12">
+		<h3>Session 3: Type (Class) Inference - Rewriting, Proving and Solving</h3>
+	</div>
+      </div>
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Peng Fu | University of Dundee</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>Nontermination Analysis for Evidence Construction in Type Class
+		  Inference</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>16:30 - 17:00</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p>Evidence construction for type class often requires instance
+	  declarations is terminating modulo cycles. In practice, there are
+	  cases where the evidence construction is diverging without forming any
+	  cycles, while the program is still meaningful. We provide a formalism
+	  to transforms instance declarations to a set of rewrite rules. This
+	  enable us to analyze the termination/nontermination behavior of the
+	  instance declaration.</p-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Edwin Brady | University of St Andrews</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>Implementing a Dependently Typed Programming Language</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>17:00 - 17:30</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p>Idris is a purely functional programming language with dependent
+	  types. As well as supporting theorem proving, Idris is intended to be
+	  a general purpose programming language. As such, it provides
+	  high-level concepts such as implicit syntax, type classes and "do"
+	  notation. Many components of a dependently-typed programming language
+	  are by now well understood, for example the underlying type theory,
+	  type checking, unification and evaluation. How to combine these
+	  components into a realistic and usable high-level language is,
+	  however, folklore, discovered anew by successive language
+	  implementors. In this talk, I will give an overview of the
+	  implementation of Idris, showing how it brings these components
+	  together into a complete programming language. I will briefly describe
+	  the high-level language and the underlying type theory, and present a
+	  tactic-based method for elaborating concrete high-level syntax with
+	  implicit arguments and type classes into a fully explicit core type
+	  theory. Furthermore, I will show how this method facilitates the
+	  implementation of new high-level language constructs.</p-->
+        </div>
+      </div>
+ 
+      <div class="row">
+        <div class="col col-md-3">
+		<h5>Adam Gundry | Well-Typed LLP</h5>
+	</div>
+        <div class="col col-md-7">
+	  <h4>A Typechecker Plugin for Units of Measure: Domain-specific
+		  Constraint Solving in GHC Haskell</h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>17:30 - 18:00</h5>
+        </div>
+      </div>	
+      <div class="row">
+        <div class="col col-md-offset-3 col-md-7">
+	  <!--p>Typed functional programming and units of measure are a natural
+	  combination, as F# demonstrates.  However, few other languages support
+	  type inference for units of measure, perhaps because doing so would
+	  require changes to their type inference algorithms.  I'll show how a
+	  tiny new feature of GHC 7.10 enables domain-specific constraint
+	  solving in the typechecker, making it possible to implement units of
+	  measure and other type inference extensions without so much as
+	  recompiling GHC.  Moreover, I'll explain how to infer units of measure
+	  in a setting with universally quantified type variables and type
+	  equality constraints.</p-->
+        </div>
+      </div>
+
+      <div class="row spacer">
+        <div class="col col-md-7 col-md-offset-3">
+	  <h4>Drinks and Dinner </h4>
+	</div>
+        <div class="col col-md-2">
+		<h5>18:15 - &nbsp;⊤</h5>
+	</div>
+	<div class="col col-md-7 col-md-offset-3">
+	  <!--p>at <a href="http://www.dca.org.uk/visit/jute-cafe-bar
+		   ">Jute Café Bar</a>, Dundee Contemporary Arts
+	   </p-->
+
+	</div>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--script src="../../assets/js/ie10-viewport-bug-workaround.js"></script-->
+    <script src="./js/smooth.js"></script>
+  </body>
+</html>

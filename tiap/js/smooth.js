@@ -9,7 +9,7 @@ $("a[href^='#']").on('click', function(e) {
 
    var topOfH = 0;
    if(hash != '') {
-     topOfH = $(hash).offset().top
+     topOfH = $(hash).offset().top - 55
    }
 
    // animate
