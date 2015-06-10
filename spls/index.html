@@ -113,10 +113,36 @@
 	  <h5>University of Strathclyde</h5>
 	</div>
         <div class="col col-md-9">
-		      <h4><a href="#neil"></a>Towards Higher Dimensional Parametricity</h4>
+	  <h4><a href="#neil"></a>Towards Higher Dimensional Parametricity</h4>
           <p>Parametricity is one of the foundational principles which underpin our understanding of modern programming languages. Roughly speaking, parametricity expresses the hidden invariants of programs satisfy by formalising the intuition that programs map related inputs to related outputs. Traditionally parametricity is formulated with proof-irrelevant relations but programming in Type Theory requires requires an extension to proof-relevant relations. But then one might ask … can our proofs be parametric?</p>
 	</div>
       </div>	
+      <div class="row">
+        <div class="col col-md-3">
+	  <h4>Conor McBride</h4>
+	  <h5>University of Strathclyde</h5>
+	</div>
+        <div class="col col-md-9">
+	  <h4><a href="#neil"></a>A few observations about testing</h4>
+          <p>Program testing can be used to show the presence of bugs, but never
+	  to show their
+	  absence!"  says Dijkstra. It is true that extensional equality of
+	  functions cannot be
+	  decided unless their domains are compact, so testing a function
+	  against a reference
+	  implementation seems a rather hopeless endeavour. But appearances can
+	  be
+	  deceptive. With just a little bit of information about the
+	  implementation of some
+	  functions, we can demonstrate the completeness of finitary testing for
+	  them. I'll prove
+	  a simple result about folds over binary trees and speculate about the
+	  prospects for a
+	  more general theory in which bounding "peculiarity" enables complete
+	  testing.</p>
+	</div>
+      </div>	
+
 
 
       <div class="row">
@@ -181,10 +207,42 @@
 	
       <div class="row">
         <div class="col col-md-3">
-	  <h4>TBA</h4>
+	  <h4>Michel Steuwer</h4>
+	  <h5>University of Edinburgh</h5>
 	</div>
         <div class="col col-md-9">
-		<h4><a href="#"></a></h4>
+		<h4><a href="#"></a>Generating Performance Portable Code using Rewrite Rules
+		From High-level Functional Expressions to High-Performance OpenCL Code</h4>
+		<p>Computing systems have become increasingly complex with the
+		emergence of heterogeneous hardware combining multicore CPUs and
+		GPUs. These parallel systems exhibit tremendous computational
+		power at the cost of increased programming effort resulting in a
+		tension between performance and code portability. Typically,
+		code is either tuned in a low-level imperative language using
+		hardware-specific optimizations to achieve maximum performance
+		or is written in a high-level, possibly functional, language to
+		achieve portability at the expense of performance.
+
+		We propose a novel approach aiming to combine high-level
+		programming, code portability, and high-performance. Starting
+		from a high-level functional expression we apply a simple set of
+		rewrite rules to transform it into a low-level functional
+		representation close to the OpenCL programming model from which
+		OpenCL code is generated. Our rewrite rules define a space of
+		possible implementations which we automatically explore to
+		generate hardware-specific OpenCL implementations. We formalise
+		the system with a core dependently-typed lambda-calculus along
+		with a denotational semantics which we use to prove the
+		correctness of the rewrite rules.
+
+		We test our design in practice by implementing a compiler which
+		generates high performance imperative OpenCL code. Our
+		experiments show that we can automatically derive
+		hardware-specific implementations from simple functional
+		high-level algorithmic expressions offering performance on par
+		with highly tuned implementations for multicore CPUs and GPUs
+		written by experts.
+		</p>
 	</div>
       </div>	
 
@@ -234,6 +292,8 @@
 		<a href="http://www.st-andrews.ac.uk/visiting/gettingtostandrews/">
 			http://www.st-andrews.ac.uk/visiting/gettingtostandrews/
 		</a>.</p>
+		<p>The Gateway is located near the School of Computer Science
+		<a href="https://www.google.co.uk/maps/place/St+Andrews,+Fife+KY16+9RJ">(map)</a>
 	</div>
       </div>	
 
