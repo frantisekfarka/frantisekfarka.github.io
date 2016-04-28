@@ -8,25 +8,51 @@ https://ff32.host.cs.st-andrews.ac.uk/lpti16/
 
 Objectives and scope
 -------------------
-Two facts are universally acknowledged: critical software must be subject to formal verification and modern verification tools need to scale and become more user-friendly in order to make more impact in industry.
-There are two major styles of verification: algorithmic : verification problems are specified in an automated prover, e.g. (constraint) logic programming or SMT solver, and properties of interest are verified by the prover automatically. Such provers can be fast, but their trustworthiness is hard to establish without producing and checking proofs.
-An alternative is a typeful approach to verification: instead of verifying programs in an external prover, a programmer may record all properties of interest as types of functions in his programs. Thanks to Curry-Howard isomorphism, type inhabitants also play the role of runnable functions and proof witnesses, thus completing the certification cycle.
-At their strongest, types can cover most of the properties of interest to the verification community, e.g. recently proposed Liquid Haskell and F* allow pre- and post-condition formulation at type level. But, when properties expressed at type level become rich, type inference engines have to assume the role of automated provers, e.g. Liquid Haskell and F* connect directly to SMT solvers.
-The above trend of integrating automated theorem proving with types calls for more precise methods of automated proof certification and integration of automated provers with modern-day compilers.
-This workshop aims to identify challenges in type inference in various domains and facilitate the research communities to collaboratively seek for effective methods, primarily focusing on Logic Programming (LP), in a broad sense, which includes resolution-based systems, constraint solving, ATPs, and also ITPs with sufficient support for automation. The term "type inference" is also used in a broad sense including all three directions of type related computations: type checking, type inference, and type inhabitation.
+Two facts are universally acknowledged: critical software must be subject to
+formal verification and modern verification tools need to scale and become more
+user-friendly in order to make more impact in industry.  There are two major
+styles of verification: algorithmic : verification problems are specified in an
+automated prover, e.g. (constraint) logic programming or SMT solver, and
+properties of interest are verified by the prover automatically. Such provers
+can be fast, but their trustworthiness is hard to establish without producing
+and checking proofs.  An alternative is a typeful approach to verification:
+instead of verifying programs in an external prover, a programmer may record all
+properties of interest as types of functions in his programs. Thanks to
+Curry-Howard isomorphism, type inhabitants also play the role of runnable
+functions and proof witnesses, thus completing the certification cycle.  At
+their strongest, types can cover most of the properties of interest to the
+verification community, e.g. recently proposed Liquid Haskell and F* allow pre-
+and post-condition formulation at type level. But, when properties expressed at
+type level become rich, type inference engines have to assume the role of
+automated provers, e.g. Liquid Haskell and F* connect directly to SMT solvers.
+The above trend of integrating automated theorem proving with types calls for
+more precise methods of automated proof certification and integration of
+automated provers with modern-day compilers.  This workshop aims to identify
+challenges in type inference in various domains and facilitate the research
+communities to collaboratively seek for effective methods, primarily focusing on
+Logic Programming (LP), in a broad sense, which includes resolution-based
+systems, constraint solving, ATPs, and also ITPs with sufficient support for
+automation. The term "type inference" is also used in a broad sense including
+all three directions of type related computations: type checking, type
+inference, and type inhabitation.
 
 
 The topics of interests include but are not limited to:
-* deriving implementations and/or proofs from declarative specifications of type systems,
-* identifying challenges and/or introducing approaches on type inference for non-traditional type systems (e.g., gradual/hybrid typing, success typing, types for process calculus, ...),
+* deriving implementations and/or proofs from declarative specifications of type
+  systems,
+* identifying challenges and/or introducing approaches on type inference for
+  non-traditional type systems (e.g., gradual/hybrid typing, success typing,
+  types for process calculus, ...),
 * innovative ideas and new/old theories of LP that could benefit type inference,
-* integration of LP methods within other parts of language systems and tools, and
+* integration of LP methods within other parts of language systems and tools,
+  and
 * adding/enhancing support for type inference in LP systems themselves.
 
 
 Venue and event
 ---------------
-LPTI will be held in New York, USA, on 16-17 October 2016, co-located with International Conference on Logic Programming, ICLP-2016.
+LPTI will be held in New York, USA, on 16-17 October 2016, co-located with
+International Conference on Logic Programming, ICLP-2016.
 
 
 
@@ -34,15 +60,19 @@ LPTI will be held in New York, USA, on 16-17 October 2016, co-located with Inter
 
 Invited Speakers
 ---------------
-* Logic programming for type inference in object-oriented languages, Davide Ancona, University of Genoa, Italy
-* Automation of type inference in functional languages: Liquid Haskell, Niki Vazou, University of California, San Diego, USA
+* Logic programming for type inference in object-oriented languages,
+  Davide Ancona, University of Genoa, Italy
+* Automation of type inference in functional languages: Liquid Haskell,
+  Niki Vazou, University of California, San Diego, USA
 * Type inference applications in industry, TBA
 
 
 Invited Tutorial Speakers 
 -------------------------
-* Horn Clauses as types: proof-relevant resolution for Haskell type classes, Peng Fu, Heriot-Watt University, UK
-* Relational Specification of type systems using LP, Ki Yung Ahn, Korea University, Sejong City, Korea
+* Horn Clauses as types: proof-relevant resolution for Haskell type classes,
+  Peng Fu, Heriot-Watt University, UK
+* Relational Specification of type systems using LP, 
+  Ki Yung Ahn, Korea University, Sejong City, Korea
 
 
 Important dates
@@ -79,10 +109,18 @@ Ekaterina Komendantskaya, Heriot-Watt University, UK
 
 Submission guidelines
 ---------------------
-Submissions must be made via EasyChair at 
+Submissions must be made via EasyChair at
 https://easychair.org/conferences/?conf=lpti2016.
+
 We solicit two types of contributions:
+
 1. Regular papers to be evaluated by the PC for publication in the proceedings:
-2. They must have a length of at most 20 pages, formatted in the EPTCS style. They must contain original contributions, be clearly written, and include appropriate reference to and comparison with related work.Short contributions:
-These will not be published in the proceedings but will be bundled in a technical report. They should be no more than two pages in the EPTCS style and may describe work in progress, summarise work submitted to a conference or workshop elsewhere, or in some other way appeal to the workshop audience.
+   They must have a length of at most 20 pages, formatted in the EPTCS style.
+   They must contain original contributions, be clearly written, and include
+   appropriate reference to and comparison with related work.
+2. Short contributions: 
+   These will not be published in the proceedings but will be bundled in a
+   technical report. They should be no more than two pages in the EPTCS style
+   and may describe work in progress, summarise work submitted to a conference
+   or workshop elsewhere, or in some other way appeal to the workshop audience.
 
