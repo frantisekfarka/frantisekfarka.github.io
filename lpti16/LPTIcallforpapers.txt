@@ -35,13 +35,13 @@ LPTI will be held in New York, USA, on 16-17 October 2016, co-located with Inter
 Invited Speakers
 ---------------
 * Logic programming for type inference in object-oriented languages, Davide Ancona, University of Genoa, Italy
-* Automation of type inference in functional languages, TBA
+* Automation of type inference in functional languages: Liquid Haskell, Niki Vazou, University of California, San Diego, USA
 * Type inference applications in industry, TBA
 
 
 Invited Tutorial Speakers 
 -------------------------
-* Proof-relevant resolution for type inference, Peng Fu, Heriot-Watt University, UK
+* Horn Clauses as types: proof-relevant resolution for Haskell type classes, Peng Fu, Heriot-Watt University, UK
 * Relational Specification of type systems using LP, Ki Yung Ahn, Korea University, Sejong City, Korea
 
 
@@ -50,20 +50,23 @@ Important dates
 Paper submission: 1 August, 2016
 Notification to authors: 21 August, 2016
 LPTI'16 Workshop: 16-17 October, 2016
-Post-proceedings: 05 November, 2016
+Post-proceedings: 5 November, 2016
 
 
 Programme committee
 -------------------
 Ki Yung Ahn, Korea University, Sejong City, Korea
 Davide Ancona, University of Genoa, Italy
+Iavor Diatchki, Galois, Inc, USA
 Peng Fu, Heriot-Watt University, UK
 Patricia Johann, Appalachian State University, USA
 Ekaterina Komendantskaya, Heriot-Watt University, UK
+J. Garrett Morris, University of Edinburgh, UK
+Claudio Russo, Microsoft Research Cambridge, UK
 Stephan Schulz, DHBW Stuttgart, Germany
 Aaron Stump, The University of Iowa, USA
-
-
+Niki Vazou, University of California, San Diego, USA
+Joe Wells, Heriot-Watt University, UK
 
 
 Publicity chair
@@ -82,3 +85,4 @@ We solicit two types of contributions:
 1. Regular papers to be evaluated by the PC for publication in the proceedings:
 2. They must have a length of at most 20 pages, formatted in the EPTCS style. They must contain original contributions, be clearly written, and include appropriate reference to and comparison with related work.Short contributions:
 These will not be published in the proceedings but will be bundled in a technical report. They should be no more than two pages in the EPTCS style and may describe work in progress, summarise work submitted to a conference or workshop elsewhere, or in some other way appeal to the workshop audience.
+
