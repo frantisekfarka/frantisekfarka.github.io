@@ -55,9 +55,6 @@ LPTI will be held in New York, USA, on 16-17 October 2016, co-located with
 International Conference on Logic Programming, ICLP-2016.
 
 
-
-
-
 Invited Speakers
 ---------------
 * Logic programming for type inference in object-oriented languages,
@@ -103,9 +100,11 @@ Publicity chair
 ---------------
 František Farka, University of Dundee, UK and University of St Andrews, UK
 
+
 PC chair
 --------
 Ekaterina Komendantskaya, Heriot-Watt University, UK
+
 
 Submission guidelines
 ---------------------
@@ -124,4 +123,5 @@ We solicit two types of contributions:
    technical report. They should be no more than two pages in the EPTCS style
    and may describe work in progress, summarise work submitted to a conference
    or workshop elsewhere, or in some other way appeal to the workshop audience.
+
 
