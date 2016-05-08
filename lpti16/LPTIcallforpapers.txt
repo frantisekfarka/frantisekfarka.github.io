@@ -55,7 +55,7 @@ LPTI will be held in New York, USA, on 16-17 October 2016, co-located with
 International Conference on Logic Programming, ICLP-2016.
 
 
-Invited Speakers
+Invited speakers
 ---------------
 * Logic programming for type inference in object-oriented languages,
   Davide Ancona, University of Genoa, Italy
@@ -64,7 +64,7 @@ Invited Speakers
 * Type inference applications in industry, TBA
 
 
-Invited Tutorial Speakers 
+Invited tutorial speakers 
 -------------------------
 * Horn Clauses as types: proof-relevant resolution for Haskell type classes,
   Peng Fu, Heriot-Watt University, UK
@@ -113,15 +113,23 @@ https://easychair.org/conferences/?conf=lpti2016.
 
 We solicit two types of contributions:
 
-1. Regular papers to be evaluated by the PC for publication in the
-   post-proceedings: They must have a length of at most 20 pages, formatted in
-   the EPTCS style.  They must contain original contributions, be clearly
-   written, and include appropriate reference to and comparison with related
-   work. The post-proceedings will be published by EPTCS.
-2. Short contributions: 
-   These will not be published in the proceedings but will be bundled in a
-   technical report. They should be no more than two pages in the EPTCS style
-   and may describe work in progress, summarise work submitted to a conference
-   or workshop elsewhere, or in some other way appeal to the workshop audience.
+1. Regular papers to be evaluated by the PC for publication in the proceedings:
+   They must have a length of at most 20 pages, formatted in the EPTCS style.
+   They must contain original contributions, be clearly written, and include
+   appropriate reference to and comparison with related work. 
+2. Short contributions: These will not be published in the proceedings but will
+   be bundled in a technical report. They should be no more than two pages in
+   the EPTCS style and may describe work in progress, summarise work submitted
+   to a conference or workshop elsewhere, or in some other way appeal to the
+   workshop audience.
 
+
+Proceedings publication
+-----------------------
+
+The proceedings of LPTI will be published in Electronic Proceedings in
+Theoretical Computer Science. The final proceedings will be published
+post-conference and will consist of revised versions of the accepted regular
+papers and invited talks. Preliminary proceedings will be made available at the
+conference in electronic form. 
 
