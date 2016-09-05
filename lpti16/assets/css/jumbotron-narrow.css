@@ -92,3 +92,14 @@ body {
 .navbar-toggle .icon-bar {
     background-color: #777;
 }
+
+/* wide definition list */
+.dl-wide dt {
+    width: 240px;
+}
+
+.dl-wide dd {
+    margin-left: 260px;
+}
+
+}
