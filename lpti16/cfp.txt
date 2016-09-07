@@ -1,0 +1,110 @@
+﻿===================================================
+
+Call for Papers
+
+Workshop on
+ Coalgebra, Horn Clause Logic Programming and Types
+
+28-29 November 2016, Edinburgh, UK
+https://ff32.host.cs.st-andrews.ac.uk/lpti16/
+
+===================================================
+
+The workshop marks the end of the EPSRC Grant Coalgebraic Logic Programming for
+Type Inference, by K. Komendantskaya and J. Power and will consist of two parts:
+
+    Part 1 - Semantics: Lawvere theories and Coalgebra in Logic and Functional
+        Programming
+    Part 2 - Programming languages: Horn Clause Logic for Type Inference in
+        Functional Languages and Beyond
+
+We invite all colleagues working in related areas to submit and share their
+results.
+
+
+Venue 
+-----
+
+The workshop will be held at the International Center for Mathematical Sciences,
+in Edinburgh city center, just 2 minutes walk from the Informatics Forum.
+
+
+Invited speakers and tutorials
+------------------------------
+
+* Logic programming: laxness and saturation,
+  John Power, University of Bath, UK
+
+* Logic programming for type inference in object-oriented languages,
+  Davide Ancona, University of Genoa, Italy
+
+* Relational Specification of type systems using LP, 
+  Ki Yung Ahn, Nanyang Techological University, Singapore
+
+
+Proceedings publication
+-----------------------
+
+We invite submission of 2-page extended abstracts via Easychair, by the 15th
+October 2016. These will be subject to light review process. Preliminary
+proceedings will be made available at the conference in electronic form.
+
+Authors of the best presentations will be invited to submit full papers to the
+post-proceedings of the workshop. The post-proceedings volume will be published
+in Electronic Proceedings in Theoretical Computer Science and peer-reviewed
+according to EPTCS standards by the PC members.
+
+
+Important dates
+---------------
+
+  Paper submission: 1 August, 2016
+  Notification to authors: 21 August, 2016
+  LPTI'16 Workshop: 16-17 October, 2016
+  Post-proceedings: 5 November, 2016
+
+
+  Extended Abstract Submission:   15 October, 2016
+  Author notification:            25 October, 2016
+  Workshop:                       28–29 November, 2016
+  EPTCS proceedings Invitations:  15 December, 2016
+  EPTCS final version submission: 30 January, 2017
+
+
+Programme committee
+-------------------
+
+Ki Yung Ahn, Nanyang Techological University, Singapore
+Davide Ancona, University of Genoa, Italy
+Filippo Bonchi, CNRS, ENS de Lyon, France
+Iavor Diatchki, Galois, Inc, USA
+Peng Fu, Heriot-Watt University, Edinburgh, UK
+Neil Ghani, University of Strathclyde, UK
+Patricia Johann, Appalachian State University, USA
+Ekaterina Komendantskaya, Heriot-Watt University, Edinburgh, UK
+Clemens Kupke, University of Strathclyde, UK
+J. Garrett Morris, University of Edinburgh, UK
+Fredrik Nordvall Forsberg, University of Strathclyde, UK
+John Power, University of Bath, UK
+Claudio Russo, Microsoft Research Cambridge, UK
+Martin Schmidt, DHBW Stuttgart and University of Osnabrueck, Germany
+Stephan Schulz, DHBW Stuttgart, Germany
+Aaron Stump, The University of Iowa, USA
+Niki Vazou, University of California, San Diego, USA
+Joe Wells, Heriot-Watt University, Edinburgh, UK
+Fabio Zanassi, Radboud University of Nijmegen, Netherlands
+
+
+Workschop chairs
+--------
+Ekaterina Komendantskaya, Heriot-Watt University, UK
+John Power, University of Bath, UK
+
+
+Publicity chair
+---------------
+František Farka, University of Dundee, UK and University of St Andrews, UK
+
+
+
+
