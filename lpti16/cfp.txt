@@ -18,8 +18,9 @@ Type Inference, by K. Komendantskaya and J. Power and will consist of two parts:
     Part 2 - Programming languages: Horn Clause Logic for Type Inference in
         Functional Languages and Beyond
 
-We invite all colleagues working in related areas to submit and share their
-results.
+We invite all colleagues working in related areas to present and
+		share their results. We welcome presentations of already published research as well as novel results. Authors of original contributions will be invited to submit their papers to EPTCS post-proceedings.
+		We especially encourage early career reserachers to present and submit their papers to postproceedings. 
 
 
 Venue 
@@ -32,42 +33,34 @@ in Edinburgh city center, just 2 minutes walk from the Informatics Forum.
 Invited speakers and tutorials
 ------------------------------
 
-* Logic programming: laxness and saturation,
-  John Power, University of Bath, UK
+
+* Relational Specification of type systems using LP, 
+  Ki Yung Ahn, Nanyang Techological University, Singapore
 
 * Logic programming for type inference in object-oriented languages,
   Davide Ancona, University of Genoa, Italy
 
-* Relational Specification of type systems using LP, 
-  Ki Yung Ahn, Nanyang Techological University, Singapore
+* Logic programming: laxness and saturation,
+  John Power, University of Bath, UK
+
+* Comodels and Interaction, Tarmo Ustalu, Tallinn University of Technology, Estonia.
 
 
 Proceedings publication
 -----------------------
 
-We invite submission of 2-page extended abstracts via Easychair, by the 15th
-October 2016. These will be subject to light review process. Preliminary
-proceedings will be made available at the conference in electronic form.
+Presentations: We invite submission of 2-page extended abstracts via Easychair, by the 15th October 2016. These will be subject to light review process. Preliminary proceedings will be made available at the conference in electronic form.
 
-Authors of the best presentations will be invited to submit full papers to the
-post-proceedings of the workshop. The post-proceedings volume will be published
-in Electronic Proceedings in Theoretical Computer Science and peer-reviewed
-according to EPTCS standards by the PC members.
+Post-proceedings: Authors presenting original work will be invited to submit full papers to the post-proceedings of the workshop. The post-proceedings volume will be published in Electronic Proceedings in Theoretical Computer Science and peer-reviewed according to EPTCS standards by the PC members.
 
 
 Important dates
 ---------------
 
-  Paper submission: 1 August, 2016
-  Notification to authors: 21 August, 2016
-  LPTI'16 Workshop: 16-17 October, 2016
-  Post-proceedings: 5 November, 2016
-
-
   Extended Abstract Submission:   15 October, 2016
   Author notification:            25 October, 2016
   Workshop:                       28–29 November, 2016
-  EPTCS proceedings Invitations:  15 December, 2016
+  EPTCS post-proceedings invitations:  15 December, 2016
   EPTCS final version submission: 30 January, 2017
 
 
