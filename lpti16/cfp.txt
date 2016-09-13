@@ -33,8 +33,7 @@ in Edinburgh city center, just 2 minutes walk from the Informatics Forum.
 Invited speakers and tutorials
 ------------------------------
 
-
-* Relational Specification of type systems using LP, 
+* Relational Specification of type systems using Logic Programming, 
   Ki Yung Ahn, Nanyang Techological University, Singapore
 
 * Logic programming for type inference in object-oriented languages,
@@ -43,10 +42,11 @@ Invited speakers and tutorials
 * Logic programming: laxness and saturation,
   John Power, University of Bath, UK
 
-* Classes for the masses, Claudio Russo, 
-Microsoft Research Cambridge, UK 
+* Classes for the masses, 
+Claudio Russo, Microsoft Research Cambridge, UK 
 
-* Comodels and Interaction, Tarmo Ustalu, Tallinn University of Technology, Estonia.
+* Comodels and Interaction, 
+Tarmo Ustalu, Tallinn University of Technology, Estonia
 
 
 Proceedings publication
