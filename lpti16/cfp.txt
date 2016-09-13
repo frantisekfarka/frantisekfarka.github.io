@@ -19,8 +19,8 @@ Type Inference, by K. Komendantskaya and J. Power and will consist of two parts:
         Functional Languages and Beyond
 
 We invite all colleagues working in related areas to present and
-		share their results. We envisage a freindly meeting with many stimulating discussions, and therefore  welcome presentations of already published research as well as novel results. Authors of original contributions will be invited to submit their papers to EPTCS post-proceedings.
-		We especially encourage early career reserachers to present and participate. 
+		share their results. We envisage a friendly meeting with many stimulating discussions, and therefore  welcome presentations of already published research as well as novel results. Authors of original contributions will be invited to submit their papers to EPTCS post-proceedings.
+		We especially encourage early career researchers to present and participate. 
 
 
 Venue 
