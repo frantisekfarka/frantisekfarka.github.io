@@ -88,7 +88,7 @@ Stephan Schulz, DHBW Stuttgart, Germany
 Aaron Stump, The University of Iowa, USA
 Niki Vazou, University of California, San Diego, USA
 Joe Wells, Heriot-Watt University, Edinburgh, UK
-Fabio Zanassi, Radboud University of Nijmegen, Netherlands
+Fabio Zanasi, Radboud University of Nijmegen, Netherlands
 
 
 Workschop chairs
