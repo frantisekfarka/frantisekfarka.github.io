@@ -7,8 +7,8 @@ Workshop on
 https://ff32.host.cs.st-andrews.ac.uk/coalpty16/
 
 
-Abstract submission:    15 October
-Registration deadline:  1 November 
+Abstract submission:    15 October, 2016
+Registration deadline:  1 November, 2016
 
 ====================================================
 
@@ -41,22 +41,22 @@ in Edinburgh city center, just 2 minutes walk from the Informatics Forum.
 Invited speakers and tutorials
 ------------------------------
 
+Theory:
 
 * Logic programming: laxness and saturation
   John Power, University of Bath, UK
 
-
-* Abstract compilation for type analysis of OO languages
-  Davide Ancona, University of Genoa, Italy
-
-
 * Comodels and interaction
   Tarmo Uustalu, Tallinn University of Technology, Estonia.
-
 
 * Refinement Types and Higher-Order Constrained Horn Clauses
   Steven Ramsay and Luke Ong, University of Oxford, UK
 
+
+Applications and Implementations:
+
+* Abstract compilation for type analysis of OO languages
+  Davide Ancona, University of Genoa, Italy
 
 * Classes for the masses
   Claudio Russo, Microsoft Research Cambridge, UK
