@@ -1,99 +1,124 @@
-﻿Call for Papers
+﻿Reminder: Call for Papers, Presentations and Participation
 
 Workshop on
- Logic Programming for Type Inference
-16-17 October 2016, New York, USA 
-https://ff32.host.cs.st-andrews.ac.uk/lpti16/
+  Coalgebra, Horn Clause Logic Programming and Types
 
+28-29 November 2016, Edinburgh, UK
+https://ff32.host.cs.st-andrews.ac.uk/coalpty16/
+
+
+Abstract submission:    15 October
+Registration deadline:  1 November 
+
+====================================================
 
 Objectives and scope
 -------------------
-Two facts are universally acknowledged: critical software must be subject to
-formal verification and modern verification tools need to scale and become more
-user-friendly in order to make more impact in industry.  There are two major
-styles of verification: algorithmic : verification problems are specified in an
-automated prover, e.g. (constraint) logic programming or SMT solver, and
-properties of interest are verified by the prover automatically. Such provers
-can be fast, but their trustworthiness is hard to establish without producing
-and checking proofs.  An alternative is a typeful approach to verification:
-instead of verifying programs in an external prover, a programmer may record all
-properties of interest as types of functions in his programs. Thanks to
-Curry-Howard isomorphism, type inhabitants also play the role of runnable
-functions and proof witnesses, thus completing the certification cycle.  At
-their strongest, types can cover most of the properties of interest to the
-verification community, e.g. recently proposed Liquid Haskell and F* allow pre-
-and post-condition formulation at type level. But, when properties expressed at
-type level become rich, type inference engines have to assume the role of
-automated provers, e.g. Liquid Haskell and F* connect directly to SMT solvers.
-The above trend of integrating automated theorem proving with types calls for
-more precise methods of automated proof certification and integration of
-automated provers with modern-day compilers.  This workshop aims to identify
-challenges in type inference in various domains and facilitate the research
-communities to collaboratively seek for effective methods, primarily focusing on
-Logic Programming (LP), in a broad sense, which includes resolution-based
-systems, constraint solving, ATPs, and also ITPs with sufficient support for
-automation. The term "type inference" is also used in a broad sense including
-all three directions of type related computations: type checking, type
-inference, and type inhabitation.
+
+The workshop marks the end of the EPSRC Grant Coalgebraic Logic Programming for
+Type Inference, by K. Komendantskaya and J. Power and will consist of two parts:
+
+        Part 1 - Semantics: Lawvere theories and Coalgebra in Logic and
+        Functional Programming
+
+        Part 2 - Programming languages: Horn Clause Logic for Type Inference in
+        Functional Languages and Beyond
+
+We invite all colleagues working in related areas to present and share their
+results. We envisage a friendly meeting with many stimulating discussions, and
+therefore  welcome presentations of already published research as well as novel
+results. Authors of original contributions will be invited to submit their
+papers to EPTCS post-proceedings. We especially encourage early career
+researchers to present and participate.
+
+Venue 
+-----
+
+The workshop will be held at the International Center for Mathematical Sciences,
+in Edinburgh city center, just 2 minutes walk from the Informatics Forum.
 
 
-The topics of interests include but are not limited to:
-* deriving implementations and/or proofs from declarative specifications of type
-  systems,
-* identifying challenges and/or introducing approaches on type inference for
-  non-traditional type systems (e.g., gradual/hybrid typing, success typing,
-  types for process calculus, ...),
-* innovative ideas and new/old theories of LP that could benefit type inference,
-* integration of LP methods within other parts of language systems and tools,
-  and
-* adding/enhancing support for type inference in LP systems themselves.
+Invited speakers and tutorials
+------------------------------
 
 
-Venue and event
----------------
-LPTI will be held in New York, USA, on 16-17 October 2016, co-located with
-International Conference on Logic Programming, ICLP-2016.
+* Logic programming: laxness and saturation
+  John Power, University of Bath, UK
 
 
-Invited speakers
----------------
-* Logic programming for type inference in object-oriented languages,
+* Abstract compilation for type analysis of OO languages
   Davide Ancona, University of Genoa, Italy
-* Automation of type inference in functional languages: Liquid Haskell,
-  Niki Vazou, University of California, San Diego, USA
-* Type inference applications in industry, TBA
 
 
-Invited tutorial speakers 
--------------------------
-* Horn Clauses as types: proof-relevant resolution for Haskell type classes,
-  Peng Fu, Heriot-Watt University, UK
-* Relational Specification of type systems using LP, 
-  Ki Yung Ahn, Korea University, Sejong City, Korea
+* Comodels and interaction
+  Tarmo Uustalu, Tallinn University of Technology, Estonia.
+
+
+* Refinement Types and Higher-Order Constrained Horn Clauses
+  Steven Ramsay and Luke Ong, University of Oxford, UK
+
+
+* Classes for the masses
+  Claudio Russo, Microsoft Research Cambridge, UK
+
+* Relational specification of type systems using Logic Programming
+  Ki Yung Ahn, Nanyang Technological University, Singapore
+
+
+Proceedings publication
+-----------------------
+
+Presentations: We invite submission of 2-page extended abstracts via Easychair,
+by the 15th October 2016. These will be subject to light review process.
+Preliminary proceedings will be made available at the conference in electronic
+form.
+
+Post-proceedings: Authors presenting original work will be invited to submit
+full papers to the post-proceedings of the workshop. The post-proceedings volume
+will be published in Electronic Proceedings in Theoretical Computer Science and
+peer-reviewed according to EPTCS standards by the PC members.
+
 
 
 Important dates
 ---------------
-Paper submission: 1 August, 2016
-Notification to authors: 21 August, 2016
-LPTI'16 Workshop: 16-17 October, 2016
-Post-proceedings: 5 November, 2016
+
+Extended Abstract Submission:   15 October, 2016
+Author notification:            25 October, 2016
+Workshop registration:           1 November, 2016
+Workshop:                       28–29 November, 2016
+EPTCS proceedings invitations:  15 December, 2016
+EPTCS final version submission: 30 January, 2017
 
 
 Programme committee
 -------------------
-Ki Yung Ahn, Korea University, Sejong City, Korea
+
+Ki Yung Ahn, Nanyang Technological University, Singapore
 Davide Ancona, University of Genoa, Italy
+Filippo Bonchi, CNRS, ENS de Lyon, France
 Iavor Diatchki, Galois, Inc, USA
-Peng Fu, Heriot-Watt University, UK
+Peng Fu, Heriot-Watt University, Edinburgh, UK
+Neil Ghani, University of Strathclyde, UK
 Patricia Johann, Appalachian State University, USA
-Ekaterina Komendantskaya, Heriot-Watt University, UK
+Ekaterina Komendantskaya, Heriot-Watt University, Edinburgh, UK
+Clemens Kupke, University of Strathclyde, UK
 J. Garrett Morris, University of Edinburgh, UK
+Fredrik Nordvall Forsberg, University of Strathclyde, UK
+John Power, University of Bath, UK
 Claudio Russo, Microsoft Research Cambridge, UK
+Martin Schmidt, DHBW Stuttgart and Osnabrück University , Germany
 Stephan Schulz, DHBW Stuttgart, Germany
 Aaron Stump, The University of Iowa, USA
 Niki Vazou, University of California, San Diego, USA
-Joe Wells, Heriot-Watt University, UK
+Joe Wells, Heriot-Watt University, Edinburgh, UK
+Fabio Zanasi, Radboud University of Nijmegen, The Netherlands
+
+
+Workshop chairs
+--------
+Ekaterina Komendantskaya, Heriot-Watt University, UK
+John Power, University of Bath, UK
 
 
 Publicity chair
@@ -101,35 +126,4 @@ Publicity chair
 František Farka, University of Dundee, UK and University of St Andrews, UK
 
 
-PC chair
---------
-Ekaterina Komendantskaya, Heriot-Watt University, UK
-
-
-Submission guidelines
----------------------
-Submissions must be made via EasyChair at
-https://easychair.org/conferences/?conf=lpti2016.
-
-We solicit two types of contributions:
-
-1. Regular papers to be evaluated by the PC for publication in the proceedings:
-   They must have a length of at most 20 pages, formatted in the EPTCS style.
-   They must contain original contributions, be clearly written, and include
-   appropriate reference to and comparison with related work. 
-2. Short contributions: These will not be published in the proceedings but will
-   be bundled in a technical report. They should be no more than two pages in
-   the EPTCS style and may describe work in progress, summarise work submitted
-   to a conference or workshop elsewhere, or in some other way appeal to the
-   workshop audience.
-
-
-Proceedings publication
------------------------
-
-The proceedings of LPTI will be published in Electronic Proceedings in
-Theoretical Computer Science. The final proceedings will be published
-post-conference and will consist of revised versions of the accepted regular
-papers and invited talks. Preliminary proceedings will be made available at the
-conference in electronic form. 
 
