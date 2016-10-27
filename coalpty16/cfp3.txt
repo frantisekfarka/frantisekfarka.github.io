@@ -1,0 +1,147 @@
+﻿Call for Participation
+
+Workshop on
+  Coalgebra, Horn Clause Logic Programming and Types
+
+28-29 November 2016, Edinburgh, UK
+https://ff32.host.cs.st-andrews.ac.uk/coalpty16/
+
+
+Abstract submission:    15 October, 2016
+Registration deadline:  1 November, 2016
+
+====================================================
+
+Objectives and scope
+-------------------
+
+The workshop marks the end of the EPSRC Grant Coalgebraic Logic Programming for
+Type Inference, by K. Komendantskaya and J. Power and will consist of two parts:
+
+        Part 1 - Semantics: Lawvere theories and Coalgebra in Logic and
+        Functional Programming
+
+        Part 2 - Programming languages: Horn Clause Logic for Type Inference in
+        Functional Languages and Beyond
+
+We invite all colleagues working in related areas to present and share their
+results. We envisage a friendly meeting with many stimulating discussions, and
+therefore  welcome presentations of already published research as well as novel
+results. Authors of original contributions will be invited to submit their
+papers to EPTCS post-proceedings. We especially encourage early career
+researchers to present and participate.
+
+Venue 
+-----
+
+The workshop will be held at the International Centre for Mathematical Sciences,
+in Edinburgh city centre, just 2 minutes walk from the Informatics Forum.
+
+Registration
+------------
+
+To register please fill in https://goo.gl/forms/KAm83p1bcNAxw0ss2
+Although the registration is free it is compulsory. Please register
+by the 5th of November 2016.
+
+
+Programme
+---------
+
+Monday 28 November
+
+9:10 - 9:20     Registration
+9:30 - 9:40     Welcome to CoALP-Ty'16
+                - Ekaterina Komendantskaya
+9:40 - 11:10    Invited talk I
+                - John Power: Logic Programming: Laxness and Saturation
+11:10 - 11:30   Coffee break
+11:30 - 12:00   Contributed talk
+                - Henning Basold and Ekaterina Komendantskaya: Models of
+                  Inductive-Coinductive Logic Programs
+12:00 - 13:00   Invited talk II
+                - Steven Ramsay and Luke Ong: Refinement Types and Higher-Order
+                  Constrained Horn Clauses
+13:00 - 14:00   Lunch
+14:00 - 15:00   Invited talk III
+                - Tarmo Uustalu: Comodels and Interaction
+15:00 - 15:30   Coffee break
+15:30 - 17:00   Contributed talks
+                - František Farka: Proofs by Resolution and Existential
+                  Variables
+                - Bashar Igried and Anton Setzer: Defining Trace Semantics for
+                  CSP-Agda
+                - Clemens Kupke: Coalgebra and Ontological Rules
+18:00 - 20:00   Workshop dinner
+                - Lebanese restaurant Beirut, 24 Nicolson Square
+
+
+Tuesday 29 November
+
+9:30 - 10:30    Invited talk IV
+                - Claudio Russo: Classes for the Masses
+10:30 - 11:00   Contributed talk
+                - J. Garrett Morris: Semantical Analysis of Type Classes
+11:00 - 11:30   Coffee break
+11:30 - 12:30   Invited talk V
+                - Davide Ancona: Abstract Compilation for Type Analysis of
+                  Object-Oriented Languages
+12:30 - 13:30   Lunch
+13:30 - 14:30   Invited talk VI
+                - Ki Yung Ahn: Relational Specification of Type Systems Using
+                  Logic Programming
+14:30 - 15:15   Discussion Panel
+                - Horn Clause Logic: its Proof Theory, Type Theory and Category
+                  Theory — do we have the full picture yet?
+15:15 - 15:45   Coffee break
+15:45 - 16:45   Contributed talks
+                - Martin Schmidt: Coalgebraic Logic Programming: Implementation
+                  and Optimization
+                - Luca Franceschini, Davide Ancona and Ekaterina Komendantskaya:
+                  Structural Resolution for Abstract Compilation of
+                  Object-Oriented Languages
+
+
+Important dates
+---------------
+
+Workshop registration:           5 November, 2016
+Workshop:                       28–29 November, 2016
+
+
+Programme committee
+-------------------
+
+Ki Yung Ahn, Nanyang Technological University, Singapore
+Davide Ancona, University of Genoa, Italy
+Filippo Bonchi, CNRS, ENS de Lyon, France
+Iavor Diatchki, Galois, Inc, USA
+Peng Fu, Heriot-Watt University, Edinburgh, UK
+Neil Ghani, University of Strathclyde, UK
+Patricia Johann, Appalachian State University, USA
+Ekaterina Komendantskaya, Heriot-Watt University, Edinburgh, UK
+Clemens Kupke, University of Strathclyde, UK
+J. Garrett Morris, University of Edinburgh, UK
+Fredrik Nordvall Forsberg, University of Strathclyde, UK
+John Power, University of Bath, UK
+Claudio Russo, Microsoft Research Cambridge, UK
+Martin Schmidt, DHBW Stuttgart and Osnabrück University , Germany
+Stephan Schulz, DHBW Stuttgart, Germany
+Aaron Stump, The University of Iowa, USA
+Niki Vazou, University of California, San Diego, USA
+Joe Wells, Heriot-Watt University, Edinburgh, UK
+Fabio Zanasi, Radboud University of Nijmegen, The Netherlands
+
+
+Workshop chairs
+--------
+Ekaterina Komendantskaya, Heriot-Watt University, UK
+John Power, University of Bath, UK
+
+
+Publicity chair
+---------------
+František Farka, University of Dundee, UK and University of St Andrews, UK
+
+
+
